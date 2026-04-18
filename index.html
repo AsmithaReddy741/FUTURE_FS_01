@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Dyapa Asmitha</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+   <p>
+    <a href="https://github.com/AsmithaReddy741" target="_blank">
+      GitHub Profile
+    </a>
+  </p>
+  <p>
+  <a href="resume.pdf" download>Download Resume</a>
+</p>
+</header>
+
+<section id="about">
+ <h1>Dyapa Asmitha</h1>
+
+<p>I am a Computer Science student passionate about Web Development and Software Engineering.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Python</li>
+    <li>C </li>
+    <li>C++</li>
+    <li>Java</li>
+    <li>JavaScript</li>
+    <li>SQL</li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>Automated Attendance System</h3>
+    <p>
+      Developed a system to automate student attendance using technology.
+      The system reduces manual work and improves accuracy in attendance tracking.
+    </p>
+    <ul>
+      <li>Technology Used: Face Recognition</li>
+      <li>Features: Automatic marking, real-time tracking</li>
+    </ul>
+    
+  </div>
+
+  <div class="project">
+    <h3>Civic Connect</h3>
+    <p>
+      A web-based platform that allows citizens to report local issues such as
+      road damage, garbage problems, and public complaints.
+    </p>
+    <ul>
+      <li>Technology Used: HTML, CSS, JavaScript</li>
+      <li>Features: Complaint submission, issue tracking</li>
+    </ul>
+    <a href="https://github.com/AsmithaReddy741/civicconnect" target="_blank">
+      View Project
+    </a>
+  </div>
+
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+
+  <div class="contact-info">
+    <p>Email: dyapaasmitha@gmail.com</p>
+    <p> Phone: 9666870268</p>
+  </div>
+
+  <form onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Your Name" required><br>
+    <input type="email" id="email" placeholder="Your Email" required><br>
+    <textarea id="message" placeholder="Your Message" required></textarea><br>
+    <button type="submit">Send Message</button>
+  </form>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
